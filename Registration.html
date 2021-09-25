@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            top: 0px;
+            left: 0px;
+        }
+        .registration-box button{
+    display: block;
+    margin-left: 1000px;
+}
+#registration::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    opacity: 0.6;
+    background: url('registercov.png')no-repeat center center/cover;
+    z-index: -1;
+}
+#registration-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+}
+#registration-box label{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#registration-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#registration-box form{
+    width: 40%;
+    
+
+}
+
+
+ .h-primary-center{
+    margin-left:650px ;
+    padding-top: 20px;
+} 
+ .btn{
+     position:relative;
+     left: 240px;
+     margin: 20px;
+     padding: 12px;
+ }
+ 
+
+
+    </style>
+</head>
+<body>
+    <section id="registration">
+        <h1 class="h-primary-center">REGISTRATION FORM</h1>
+        <div id="registration-box">
+            <form action="noaction.php">
+                <div class="form-group">
+                    <label for=" Events"></label>
+                    <select name="" id="Events" placeholder="">
+                        <option disabled selected > COVID-VACCINES </option>
+                        <option value="ludo">Pfizer-Bion</option>
+                        <option value="Elect">Moderna</option>
+                        <option value="chess">Jansen</option>
+                        <option value="Brawls">Astrazenica</option>
+                        <option value="sara">Sputnik-V</option>
+                        <option value="movie">Corona-Vac</option>
+                        <option value="mic">Novo-Vax</option>
+                        <option value="Meme">Covaxin</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="card">Age:</label>
+                    <input type="text" name="name" id="card" placeholder="Enter your Age">
+                </div>
+
+                <div class="form-group">
+                    <label for="branch">Aadhar-no:</label>
+                    <input type="phone" name="name" id="branch" placeholder="Enter your Aadhar-no:">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+
+                <button class="btn">Register Now</button>
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>

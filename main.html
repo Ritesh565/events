@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        #navbar {
+            
+            
+            margin-bottom: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:lightblue;
+            border-radius: 20px;
+            width: 1000px;
+            margin-left: 270px;
+            margin-top: 30px;
+
+        }
+        #navbar ul{
+            display: flex;
+            
+            list-style: none; 
+            
+        }
+        #navbar ul li a{
+            padding: 50px;
+            text-decoration: none;
+            color:blue;
+            font-size: 30px;
+            
+        }
+        #navbar ul li a:hover{
+            color: white;
+        }
+
+        #navbar ul li:hover{
+            
+            border-radius: 20px;
+        }
+        #logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        #logo img{
+            
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+    #second{
+    position:relative;
+    height: 400px;
+    
+    }
+        
+#logo::before{
+content: "";
+background: url('vacccrow.jpg') no-repeat center center/cover;
+position: absolute;
+z-index: -1;
+height: 200px;
+width: 100%;
+    
+opacity: .9;
+top: 0px;
+left: 0px;
+        }
+    #second::before{
+    content:"";
+    
+    width: 100%;
+    height:100%;
+    opacity: 0.8;
+    background: url('secondimg.png') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    }
+    
+    #second{
+        position: relative;
+    }
+    .scnd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        height: 400px;
+    }
+    .scnd h1{
+         font-size: 80px;
+    }
+    .scnd h3{
+         font-size: 30px;
+    }
+    .scnd .item{
+        font-size: 20px;
+    }
+     
+    
+
+    </style>
+</head>
+<body>
+    <section>
+        <div id="logo">
+            <img src="logovac.jpg" alt="electracompetition.com">
+        </div>
+
+
+        <nav id="navbar">
+        <ul>
+
+            <li class="item"><a href="main.html">Home</a></li>
+            <li class="item"><a href="information.html">Information</a></li>
+            <li class="item"><a href="Registration.html">Registration</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+               
+        </ul>
+
+    </nav>
+    </section>
+    
+
+    <section id="second">
+        
+        <div class="scnd">
+
+        <h1>Vaccinate with Confidence</h1> 
+          
+        <h3>Strategy:protect communities at risk from under vaccination</h3>
+        
+        <div class="item">Leverage immunization data to find and respond to communities at risk.</div> 
+
+        <div class="item"> Work with trusted local partners to reach at-risk communities before outbreak.</div>
+        <div class="item"> Ensure Vaccines are available,affordable,and easy-to-get in every community.</div> 
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
